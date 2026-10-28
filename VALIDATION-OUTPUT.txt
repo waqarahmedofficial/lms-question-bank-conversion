@@ -1,0 +1,18 @@
+PASS  A/mbz: all 77 XML files well-formed
+PASS  A/imscc: all 5 XML files well-formed
+PASS  A/scorm: nested SCORM imsmanifest.xml well-formed
+PASS  B: manifest — all 21 <file> hrefs + resource hrefs resolve — missing: 
+PASS  C: .mbz files.xml — 8 rows, physical storage present, SHA-1 matches
+PASS  D1: questions by type reconcile — source {'multichoice': 25, 'truefalse': 10, 'shortanswer': 8, 'matching': 6, 'numerical': 6, 'essay': 5, 'calculated': 3} vs bank {'multichoice': 25, 'truefalse': 10, 'shortanswer': 8, 'matching': 6, 'numerical': 6, 'essay': 5, 'calculated': 3}
+PASS  D2: total questions 63 = 63 — source 63, bank 63
+PASS  D3: feedback blocks reconcile (answer-level + question-level) — source 134+63=197 vs bank 197
+PASS  D4: calculated questions are labelled placeholders, not conversions — placeholders 3
+PASS  D5: response options (answers + matching choices) reconcile — source 224 vs bank 224
+PASS  E: each quiz assessment holds exactly its source question set — quiz_108: 10/10, quiz_111: 10/10, quiz_112: 10/10
+PASS  F: all 6 unique source files present byte-identical in cartridge — missing 0
+PASS  G: per-question image integrity for 3 question-image references
+    Q1008 'MC08 chart channel question' image chart.png sha1=3a4125685783... -> questionbank:OK, quiz_112:OK
+    Q1009 'MC09 chart least chosen' image chart.png sha1=3a4125685783... -> questionbank:OK
+    Q1017 'MC17 loop diagram' image loop-diagram.png sha1=e28a6f874ed5... -> questionbank:OK, quiz_112:OK
+
+==== ALL CHECKS PASSED ====

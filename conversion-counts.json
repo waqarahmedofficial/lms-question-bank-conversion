@@ -1,0 +1,121 @@
+{
+  "course": "Workplace Communication Essentials",
+  "sections": 4,
+  "resources_total": 15,
+  "pages": 4,
+  "labels": 2,
+  "file_resources": 3,
+  "assignments": 1,
+  "quizzes": 3,
+  "assessments_written": 4,
+  "qti_items_by_type_in_bank": {
+    "multichoice": 25,
+    "truefalse": 10,
+    "shortanswer": 8,
+    "matching": 6,
+    "numerical": 6,
+    "essay": 5,
+    "calculated": 3
+  },
+  "qti_placeholders": 3,
+  "qti_feedback_blocks_total_all_assessments": 307,
+  "qti_labels_total_all_assessments": 318,
+  "qti_accepted_answer_conditions_all": 30,
+  "qti_matching_response_lids_all": 28,
+  "exceptions_count": 10,
+  "exceptions": [
+    {
+      "item": "Assignment rubric on 'Rewrite a Workplace Email' (4 criteria, 12 levels)",
+      "detail": "Moodle rubric grading forms have no machine-readable equivalent in IMS Common Cartridge.",
+      "fallback": "Rubric criteria and level descriptions are reproduced as a readable table inside the assignment page; a human must rebuild the rubric in the target system's grading tool."
+    },
+    {
+      "item": "SCORM 1.2 package 'scorm-missed-deadline.zip' (activity: Interactive Scenario: The Missed Deadline (SCORM 1.2))",
+      "detail": "Transferred byte-identical as a file. Its SCORM runtime wiring \u2014 launch settings and grade passback to the gradebook \u2014 cannot be verified from files alone and is NOT converted.",
+      "fallback": "Package file carried unchanged; a human must attach it with the target system's SCORM tool and test it in student view, including a completion/passback check."
+    },
+    {
+      "item": "Calculated question 'CA01 reply window'",
+      "detail": "Moodle calculated questions randomise numbers from wildcard datasets (h, s, e) on every attempt; QTI/Common Cartridge has no equivalent mechanism.",
+      "fallback": "A clearly labelled placeholder item is included in the question bank carrying the original question text, formula and wildcard ranges; a human must recreate the question natively in the target system."
+    },
+    {
+      "item": "Calculated question 'CA02 words per page'",
+      "detail": "Moodle calculated questions randomise numbers from wildcard datasets (w, p) on every attempt; QTI/Common Cartridge has no equivalent mechanism.",
+      "fallback": "A clearly labelled placeholder item is included in the question bank carrying the original question text, formula and wildcard ranges; a human must recreate the question natively in the target system."
+    },
+    {
+      "item": "Calculated question 'CA03 meeting people hours'",
+      "detail": "Moodle calculated questions randomise numbers from wildcard datasets (n, m) on every attempt; QTI/Common Cartridge has no equivalent mechanism.",
+      "fallback": "A clearly labelled placeholder item is included in the question bank carrying the original question text, formula and wildcard ranges; a human must recreate the question natively in the target system."
+    },
+    {
+      "item": "Restrict-access rule on 'The Sender-Message-Feedback Loop'",
+      "detail": "Opens only after 'Welcome and How This Course Works' is marked complete. IMS Common Cartridge has no standard for activity prerequisites.",
+      "fallback": "Listed here for manual recreation in the target system's requirements/prerequisites settings."
+    },
+    {
+      "item": "Restrict-access rule on 'Giving Feedback That Lands'",
+      "detail": "Opens only after 'Quiz 1: Writing Clearly' is marked complete. IMS Common Cartridge has no standard for activity prerequisites.",
+      "fallback": "Listed here for manual recreation in the target system's requirements/prerequisites settings."
+    },
+    {
+      "item": "Gradebook structure and weighting",
+      "detail": "Source gradebook contains 1 grade item(s) under Moodle aggregation rules. Cartridge packages do not carry gradebook aggregation or weighting.",
+      "fallback": "Recreate gradebook categories and weights manually in the target system."
+    },
+    {
+      "item": "Activity completion tracking settings",
+      "detail": "4 source activities carry Moodle completion tracking flags; completion conditions themselves are not a cartridge concept.",
+      "fallback": "Re-enable completion tracking per activity in the target system if required."
+    },
+    {
+      "item": "LTI / external-tool activities",
+      "detail": "None existed in the source course \u2014 not applicable to this conversion.",
+      "fallback": "No action. (In real courses, LTI credentials never transfer in a cartridge and must be re-issued.)"
+    }
+  ],
+  "question_images": {
+    "MC08 chart channel question": [
+      {
+        "file": "chart.png",
+        "sha1": "3a4125685783321c459c4ede20fc9299bad2b102",
+        "folders": [
+          "quiz_112",
+          "questionbank"
+        ]
+      }
+    ],
+    "MC17 loop diagram": [
+      {
+        "file": "loop-diagram.png",
+        "sha1": "e28a6f874ed5c8641a6914b8ab8dac1b2faaa097",
+        "folders": [
+          "quiz_112",
+          "questionbank"
+        ]
+      }
+    ],
+    "MC09 chart least chosen": [
+      {
+        "file": "chart.png",
+        "sha1": "3a4125685783321c459c4ede20fc9299bad2b102",
+        "folders": [
+          "questionbank"
+        ]
+      }
+    ]
+  },
+  "copied_files": {
+    "page_101/banner.png": "cb8973b0e75647ef366749fc496592a9e0fb3e75",
+    "resource_103/handbook.pdf": "de49481facd8e3dcdb5f6ce427ef4a3ac59d3276",
+    "page_104/loop-diagram.png": "e28a6f874ed5c8641a6914b8ab8dac1b2faaa097",
+    "resource_107/checklist.txt": "dfd15be2b77e7e091c5e91f7e71be4124cca6e4f",
+    "resource_110/scorm-missed-deadline.zip": "9c2105666d02b8a13c2cac508783fe467cc7391c",
+    "quiz_112/chart.png": "3a4125685783321c459c4ede20fc9299bad2b102",
+    "quiz_112/loop-diagram.png": "e28a6f874ed5c8641a6914b8ab8dac1b2faaa097",
+    "questionbank/chart.png": "3a4125685783321c459c4ede20fc9299bad2b102",
+    "questionbank/loop-diagram.png": "e28a6f874ed5c8641a6914b8ab8dac1b2faaa097"
+  },
+  "imscc_bytes": 210170
+}

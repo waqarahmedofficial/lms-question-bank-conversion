@@ -1,0 +1,40 @@
+{
+  "labels": 2,
+  "pages": 4,
+  "resources": 3,
+  "assignments": 1,
+  "quizzes": 3,
+  "prerequisites": 2,
+  "rubric_criteria": 4,
+  "rubric_levels": 12,
+  "sections": 4,
+  "activities_total": 13,
+  "files_rows_total": 8,
+  "files_unique_physical": 6,
+  "images_unique": 3,
+  "questions_total": 63,
+  "questions_by_type": {
+    "multichoice": 25,
+    "truefalse": 10,
+    "shortanswer": 8,
+    "matching": 6,
+    "numerical": 6,
+    "essay": 5,
+    "calculated": 3
+  },
+  "answers_total": 157,
+  "matching_subquestions": 24,
+  "feedback_answer_level": 134,
+  "feedback_question_level": 63,
+  "feedback_total": 197,
+  "quiz_memberships": {
+    "QUIZ1": 10,
+    "QUIZ2": 10,
+    "QUIZ3": 10
+  },
+  "question_image_files": {
+    "MC08 chart channel question": 1,
+    "MC09 chart least chosen": 1,
+    "MC17 loop diagram": 1
+  }
+}
